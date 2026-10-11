@@ -1,6 +1,6 @@
 # Cherry Nails 💅
 
-Web y sistema de turnos online de **Cherry Nails**, un estudio de uñas en Corrientes.
+Web y sistema de turnos online de **Cherry Nails**, un estudio de uñas.
 
 Las clientas ven los servicios y precios, eligen día y horario, y reservan su turno desde el celular en menos de un minuto. La administradora recibe el aviso por WhatsApp y gestiona todo desde un panel: confirma turnos, carga turnos a mano, edita servicios, precios y horarios, y manda recordatorios.
 
