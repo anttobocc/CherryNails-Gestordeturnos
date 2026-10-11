@@ -119,7 +119,7 @@ document.querySelectorAll('[data-close-drawer]').forEach(el => (el.onclick = () 
 function setHeader(title, subtitle = '') {
   document.getElementById('title').innerHTML = title;
   document.getElementById('subtitle').textContent = subtitle;
-  document.title = `${document.getElementById('title').textContent} · Merce Nails`;
+  document.title = `${document.getElementById('title').textContent} · Cherry Nails`;
 }
 
 async function updateBadge() {
@@ -565,7 +565,7 @@ const pages = {
         <label class="field"><span>Nombre del negocio</span><input name="business_name" value="${esc(s.business_name)}" maxlength="60"></label>
         <label class="field"><span>Dirección</span><input name="address" value="${esc(s.address)}" maxlength="120"></label>
         <label class="field"><span>Link de Google Maps</span><input name="maps_url" value="${esc(s.maps_url)}" type="url" maxlength="300"></label>
-        <label class="field"><span>Instagram</span><input name="instagram" value="${esc(s.instagram)}" placeholder="@mercenails" maxlength="60"></label>
+        <label class="field"><span>Instagram</span><input name="instagram" value="${esc(s.instagram)}" placeholder="@cherrynails" maxlength="60"></label>
         <h3 style="margin-top:1.4rem">Reservas</h3>
         <div class="row2">
           <label class="field"><span>Anticipación mínima (horas)</span><input name="min_notice_hours" type="number" min="0" max="72" value="${esc(s.min_notice_hours)}"></label>

@@ -34,4 +34,4 @@ app.use((err, req, res, next) => {
 });
 
 const port = Number(process.env.PORT) || 3000;
-app.listen(port, () => console.log(`Merce Nails en http://localhost:${port}  ·  Panel: http://localhost:${port}/admin/`));
+app.listen(port, () => console.log(`Cherry Nails en http://localhost:${port}  ·  Panel: http://localhost:${port}/admin/`));

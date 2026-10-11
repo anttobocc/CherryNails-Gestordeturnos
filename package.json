@@ -1,8 +1,8 @@
 {
-  "name": "mercenails",
+  "name": "cherrynails",
   "version": "1.0.0",
   "private": true,
-  "description": "Web y sistema de turnos de Merce Nails",
+  "description": "Web y sistema de turnos de Cherry Nails",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

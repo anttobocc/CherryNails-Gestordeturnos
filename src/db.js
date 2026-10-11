@@ -66,9 +66,9 @@ db.exec(`
 `);
 
 const DEFAULT_SETTINGS = {
-  business_name: 'Merce Nails',
-  admin_name: 'Merce',
-  admin_user: 'merce',
+  business_name: 'Cherry Nails',
+  admin_name: 'Admin',
+  admin_user: 'admin',
   whatsapp: '5493790000000',
   address: 'Valparahizo 2878, Corrientes',
   maps_url: 'https://www.google.com/maps/search/?api=1&query=Valparahizo%202878%2C%20Corrientes%2C%20Corrientes',
@@ -76,7 +76,7 @@ const DEFAULT_SETTINGS = {
   min_notice_hours: '2',
   max_days_ahead: '30',
   wa_confirm_template:
-    'Hola {nombre}! 💅 Te confirmo tu turno de {servicio} para el {dia} {fecha} a las {hora}. ¡Te espero! — Merce Nails',
+    'Hola {nombre}! 💅 Te confirmo tu turno de {servicio} para el {dia} {fecha} a las {hora}. ¡Te espero! — Cherry Nails',
   wa_reminder_template:
     'Hola {nombre}! Te recuerdo tu turno de {servicio} mañana {fecha} a las {hora}. Si no podés venir avisame. 💖',
 };
